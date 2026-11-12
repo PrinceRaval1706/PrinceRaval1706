@@ -6,8 +6,8 @@
 
 ### B.Tech Cyber Security Student · Developer · AI Enthusiast · Entrepreneur
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prince-raval-8b493a377/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-0A1F44?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PrinceRaval1706)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A1F44?style=for-the-badge&logo=linkedin&logoColor=247BFF)](https://www.linkedin.com/in/prince-raval-8b493a377/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-101B36?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/PrinceRaval1706)
 
 </div>
 
@@ -60,23 +60,19 @@ I'm a third-year B.Tech Cyber Security student at the **Institute of Advanced Re
 <table>
   <tr>
     <td align="center" width="54%">
-      <img height="185" src="https://github-stats-extended.vercel.app/api?username=PrinceRaval1706&show_icons=true&include_all_commits=true&hide_border=true&bg_color=135,0A1224,0F2347&title_color=58A6FF&icon_color=FF354F&text_color=FFFFFF&rank_icon=github" alt="Prince Raval GitHub Stats"/>
+      <img height="185" src="https://github-stats-extended.vercel.app/api?username=PrinceRaval1706&show_icons=true&include_all_commits=true&hide_border=false&border_color=247BFF&bg_color=135,070B16,101B36&title_color=247BFF&icon_color=FF354F&text_color=FFFFFF&rank_icon=github" alt="Prince Raval GitHub Stats"/>
     </td>
     <td align="center" width="46%">
-      <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=PrinceRaval1706&layout=compact&langs_count=10&hide_border=true&bg_color=135,0A1224,0F2347&title_color=58A6FF&icon_color=FF354F&text_color=FFFFFF" alt="Most Used Languages"/>
+      <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=PrinceRaval1706&layout=compact&langs_count=10&hide_border=false&border_color=247BFF&bg_color=135,070B16,101B36&title_color=247BFF&icon_color=FF354F&text_color=FFFFFF" alt="Most Used Languages"/>
     </td>
   </tr>
 </table>
 
-<img src="https://streak-stats.demolab.com/?user=PrinceRaval1706&hide_border=true&background=0A1224&ring=247BFF&fire=FF354F&currStreakLabel=58A6FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94A3B8" alt="GitHub Contribution Streak"/>
+<img src="https://streak-stats.demolab.com/?user=PrinceRaval1706&hide_border=false&border=247BFF&background=101B36&ring=247BFF&fire=FF354F&currStreakLabel=247BFF&sideLabels=AFC5E8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AFC5E8" alt="GitHub Contribution Streak"/>
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrinceRaval1706&theme=transparent" alt="GitHub Contribution Graph"/>
-
-<br/>
-
-<img src="https://ghchart.rshah.org/247BFF/PrinceRaval1706" alt="Prince Raval 52-Week Contribution Heatmap"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrinceRaval1706&theme=github_dark" alt="GitHub Contribution Graph"/>
 
 </div>
 
@@ -88,12 +84,12 @@ I'm a third-year B.Tech Cyber Security student at the **Institute of Advanced Re
 
 I'm always interested in meeting people who enjoy building, learning, and solving meaningful problems.
 
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prince-raval-8b493a377/)
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A1F44?style=for-the-badge&logo=linkedin&logoColor=247BFF)](https://www.linkedin.com/in/prince-raval-8b493a377/)
 
 </div>
 
 ---
 
 <div align="center">
-  <sub>Designed with a Royal Tech aesthetic · Deep navy · Electric blue · Crimson accents</sub>
+  <sub>Designed with a Midnight Royal Tech aesthetic · Deep navy · Electric blue · Crimson accents</sub>
 </div>

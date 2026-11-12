@@ -1,17 +1,230 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Prince Raval | GitHub Profile Preview</title>
-<style>
-:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#070b16;color:#eaf1ff;font:16px/1.65 Arial,sans-serif}
-main{max-width:1000px;margin:35px auto;padding:24px}.panel{background:#0d172b;border:1px solid #20375d;border-radius:18px;padding:24px;margin:22px 0}
-.hero{width:100%;border-radius:16px}.top{text-align:center;color:#b9c9e3}.links a{display:inline-block;color:#fff;text-decoration:none;background:#124b9c;padding:10px 18px;border-radius:8px;margin:5px}
-h2{color:#7eb5ff}.tag{display:inline-block;border:1px solid #244a80;background:#0b1b38;padding:7px 12px;border-radius:8px;margin:5px;color:#dceaff}
-.stats{display:flex;gap:12px;flex-wrap:wrap}.stats img{max-width:100%;height:auto}
-</style></head><body><main>
-<img class="hero" src="assets/hero.svg" alt="Prince Raval hero banner">
-<div class="top"><h3>B.Tech Cyber Security Student · Developer · AI Enthusiast · Entrepreneur</h3><div class="links"><a href="https://www.linkedin.com/in/prince-raval-8b493a377/">LinkedIn</a><a href="https://github.com/PrinceRaval1706">GitHub</a></div></div>
-<section class="panel"><img width="100%" src="assets/about.svg" alt="About the builder"><p>I'm a third-year B.Tech Cyber Security student at the Institute of Advanced Research (IAR). I enjoy turning ideas into working products, exploring emerging technology, and building projects that solve practical problems.</p><p>🚀 Startups and digital products · 🧠 AI/ML and cybersecurity · 💻 Full-stack and mobile development</p></section>
-<section class="panel"><h2>Tech Stack</h2><span class="tag">C / C++</span><span class="tag">Java</span><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">React Native</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">MySQL</span><span class="tag">Git</span></section>
-<section class="panel"><h2>GitHub Activity</h2><div class="stats"><img src="https://github-stats-extended.vercel.app/api?username=PrinceRaval1706&show_icons=true&include_all_commits=true&hide_border=true&bg_color=070D1C&title_color=58A6FF&icon_color=FF405B&text_color=E6EDF3&rank_icon=github" alt="GitHub Stats"><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=PrinceRaval1706&layout=compact&langs_count=10&hide_border=true&bg_color=070D1C&title_color=58A6FF&icon_color=FF405B&text_color=E6EDF3" alt="Top Languages"><img src="https://streak-stats.demolab.com/?user=PrinceRaval1706&hide_border=true&background=070D1C&ring=247BFF&fire=FF354F&currStreakLabel=58A6FF&sideLabels=E6EDF3&dates=9AAAC2" alt="GitHub Streak"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrinceRaval1706&theme=github_dark" alt="GitHub Contribution Graph"><img src="https://ghchart.rshah.org/247BFF/PrinceRaval1706" alt="GitHub Contribution Heatmap"></div><p>Activity cards load from public GitHub stats services when online.</p></section>
-<section class="panel"><h2>Let's Connect</h2><a href="https://www.linkedin.com/in/prince-raval-8b493a377/">LinkedIn: Prince Raval</a></section>
-</main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Prince Raval | GitHub Profile Preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg-base: #070B16;
+      --bg-navy: #0A1F44;
+      --bg-card: #0A1224;
+      --bg-card-elevated: #0F1D3A;
+      --blue: #247BFF;
+      --blue-bright: #58A6FF;
+      --crimson: #FF354F;
+      --text: #FFFFFF;
+      --text-muted: #B9C9E3;
+      --border: rgba(36, 123, 255, 0.22);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.65;
+      background-color: var(--bg-base);
+      background-image:
+        radial-gradient(ellipse 80% 50% at 15% 0%, rgba(36, 123, 255, 0.16), transparent 60%),
+        radial-gradient(ellipse 65% 45% at 88% 12%, rgba(255, 53, 79, 0.10), transparent 55%),
+        radial-gradient(ellipse 70% 50% at 50% 100%, rgba(10, 31, 68, 0.55), transparent 70%);
+    }
+    main {
+      max-width: 1020px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .hero {
+      width: 100%;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+      display: block;
+    }
+    .profile-header {
+      text-align: center;
+      margin-top: -58px;
+      position: relative;
+      z-index: 2;
+    }
+    .avatar-ring {
+      display: inline-block;
+      padding: 4px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--blue), var(--crimson));
+      box-shadow: 0 10px 30px rgba(36, 123, 255, 0.28);
+    }
+    .avatar {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      border: 3px solid var(--bg-base);
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 14px 0 16px;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.92rem;
+      padding: 9px 18px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, var(--bg-navy), #123570);
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    .links a:hover {
+      transform: translateY(-2px);
+      border-color: var(--blue-bright);
+    }
+    .panel {
+      background: linear-gradient(180deg, rgba(10, 18, 36, 0.92), rgba(13, 25, 51, 0.88));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 26px;
+      margin: 24px 0;
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
+    }
+    h2 {
+      color: var(--blue-bright);
+      margin: 0 0 16px;
+      font-size: 1.35rem;
+      letter-spacing: 0.2px;
+    }
+    .about-banner {
+      width: 100%;
+      border-radius: 14px;
+      margin-bottom: 14px;
+      display: block;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+    .tag {
+      display: inline-block;
+      border: 1px solid var(--border);
+      background: var(--bg-navy);
+      padding: 7px 14px;
+      border-radius: 9px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #E6EDF3;
+    }
+    .metrics {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+      align-items: center;
+      justify-items: center;
+      margin-bottom: 16px;
+    }
+    .stats-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .stats-grid img, .stats-stack img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+    .heatmap-wrap {
+      width: 100%;
+      overflow-x: auto;
+      padding: 14px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(36, 123, 255, 0.14);
+      text-align: center;
+    }
+    .footer {
+      text-align: center;
+      color: #8CA2C6;
+      font-size: 0.85rem;
+      margin-top: 28px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="hero" src="assets/hero.svg" alt="Prince Raval hero banner">
+
+    <div class="profile-header">
+      <div class="avatar-ring">
+        <img class="avatar" src="assets/profile.jpg" alt="Prince Raval">
+      </div>
+      <div class="subtitle">B.Tech Cyber Security Student · Developer · AI Enthusiast · Entrepreneur</div>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/prince-raval-8b493a377/">Connect on LinkedIn</a>
+        <a href="https://github.com/PrinceRaval1706">Follow on GitHub</a>
+      </div>
+    </div>
+
+    <section class="panel">
+      <img class="about-banner" src="assets/about.svg" alt="About the builder">
+      <p>I'm a third-year B.Tech Cyber Security student at the <strong>Institute of Advanced Research (IAR)</strong>. I enjoy turning ideas into working products, exploring emerging technology, and building projects that solve practical problems.</p>
+      <p>🚀 Startups &amp; digital products · 🧠 AI/ML &amp; cybersecurity · 💻 Full-stack &amp; mobile development</p>
+    </section>
+
+    <section class="panel">
+      <h2>⚡ Tech Stack</h2>
+      <div class="tags">
+        <span class="tag">C</span><span class="tag">C++</span><span class="tag">Java</span>
+        <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">HTML5</span>
+        <span class="tag">CSS3</span><span class="tag">React</span><span class="tag">React Native</span>
+        <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+        <span class="tag">MySQL</span><span class="tag">Git</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>📊 GitHub Analytics &amp; Language Statistics</h2>
+      <div class="metrics">
+        <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FPrinceRaval1706&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0A1F44&color=247BFF" alt="Public Repos">
+        <img src="https://img.shields.io/github/followers/PrinceRaval1706?label=Followers&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0A1F44&color=247BFF" alt="Followers">
+        <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FPrinceRaval1706&query=%24.following&label=Following&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0A1F44&color=FF354F" alt="Following">
+      </div>
+      <div class="stats-grid">
+        <img src="https://github-stats-extended.vercel.app/api?username=PrinceRaval1706&show_icons=true&include_all_commits=true&hide_border=true&bg_color=135,0A1224,0F2347&title_color=58A6FF&icon_color=FF354F&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=PrinceRaval1706&layout=compact&langs_count=10&hide_border=true&bg_color=135,0A1224,0F2347&title_color=58A6FF&icon_color=FF354F&text_color=FFFFFF" alt="Top Languages">
+      </div>
+      <div class="stats-stack">
+        <img src="https://streak-stats.demolab.com/?user=PrinceRaval1706&hide_border=true&background=0A1224&ring=247BFF&fire=FF354F&currStreakLabel=58A6FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94A3B8" alt="GitHub Streak">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrinceRaval1706&theme=transparent" alt="GitHub Contribution Graph">
+        <div class="heatmap-wrap">
+          <img src="https://ghchart.rshah.org/247BFF/PrinceRaval1706" alt="GitHub Contribution Heatmap">
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">Designed with a Royal Tech aesthetic · Deep navy · Electric blue · Crimson accents</div>
+  </main>
+</body>
+</html>

@@ -7,7 +7,7 @@
 ### B.Tech Cyber Security Student · Developer · AI Enthusiast · Entrepreneur
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prince-raval-8b493a377/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PrinceRaval1706)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-0A1F44?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PrinceRaval1706)
 
 </div>
 
@@ -45,6 +45,8 @@ I'm a third-year B.Tech Cyber Security student at the **Institute of Advanced Re
 
 </div>
 
+---
+
 ## 📊 GitHub Analytics & Language Statistics
 
 <div align="center">
@@ -55,22 +57,30 @@ I'm a third-year B.Tech Cyber Security student at the **Institute of Advanced Re
 
 <br/>
 
-<img height="175" src="https://github-stats-extended.vercel.app/api?username=PrinceRaval1706&show_icons=true&include_all_commits=true&hide_border=true&bg_color=070D1C&title_color=58A6FF&icon_color=FF405B&text_color=E6EDF3&rank_icon=github" alt="Prince Raval GitHub Stats"/>
-<img height="175" src="https://github-stats-extended.vercel.app/api/top-langs/?username=PrinceRaval1706&layout=compact&langs_count=10&hide_border=true&bg_color=070D1C&title_color=58A6FF&icon_color=FF405B&text_color=E6EDF3" alt="Most Used Languages"/>
+<table>
+  <tr>
+    <td align="center" width="54%">
+      <img height="185" src="https://github-stats-extended.vercel.app/api?username=PrinceRaval1706&show_icons=true&include_all_commits=true&hide_border=true&bg_color=135,0A1224,0F2347&title_color=58A6FF&icon_color=FF354F&text_color=FFFFFF&rank_icon=github" alt="Prince Raval GitHub Stats"/>
+    </td>
+    <td align="center" width="46%">
+      <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=PrinceRaval1706&layout=compact&langs_count=10&hide_border=true&bg_color=135,0A1224,0F2347&title_color=58A6FF&icon_color=FF354F&text_color=FFFFFF" alt="Most Used Languages"/>
+    </td>
+  </tr>
+</table>
+
+<img src="https://streak-stats.demolab.com/?user=PrinceRaval1706&hide_border=true&background=0A1224&ring=247BFF&fire=FF354F&currStreakLabel=58A6FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94A3B8" alt="GitHub Contribution Streak"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=PrinceRaval1706&hide_border=true&background=070D1C&ring=247BFF&fire=FF354F&currStreakLabel=58A6FF&sideLabels=E6EDF3&dates=9AAAC2" alt="GitHub Contribution Streak"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrinceRaval1706&theme=github_dark" alt="GitHub Contribution Graph"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PrinceRaval1706&theme=transparent" alt="GitHub Contribution Graph"/>
 
 <br/>
 
 <img src="https://ghchart.rshah.org/247BFF/PrinceRaval1706" alt="Prince Raval 52-Week Contribution Heatmap"/>
 
 </div>
+
+---
 
 ## 🤝 Let's Connect
 

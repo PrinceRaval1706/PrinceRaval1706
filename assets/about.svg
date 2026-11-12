@@ -1,0 +1,7 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" y1="0" x2="900" y2="180"><stop stop-color="#0B1B38"/><stop offset="1" stop-color="#142B50"/></linearGradient></defs>
+<rect width="900" height="180" rx="20" fill="url(#g)" stroke="#244A80"/>
+<text x="34" y="58" fill="#75AFFF" font-family="Arial" font-size="15" letter-spacing="3">ABOUT THE BUILDER</text>
+<text x="34" y="101" fill="#F4F7FF" font-family="Arial" font-size="25" font-weight="bold">Curious mind. Relentless builder.</text>
+<text x="34" y="137" fill="#C3D2EA" font-family="Arial" font-size="17">Cybersecurity student exploring AI, full-stack development and real-world startup ideas.</text>
+</svg>
